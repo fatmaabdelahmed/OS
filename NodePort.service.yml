@@ -9,5 +9,5 @@ spec:
     app: my-website
   ports:
     - port: 8080 # service
-      targetPort: 5080  # pod
+      targetPort: 80  # pod
       nodePort: 30005  # any port between 30000 and 32767
